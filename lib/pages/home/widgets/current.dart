@@ -79,7 +79,7 @@ class Program extends StatelessWidget {
       },
       child: Container(
         height: 100,
-        width: 180,
+        width: 200,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
           //pls change blendmode.lighten

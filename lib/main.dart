@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_fitness_v1/pages/home/home.dart';
+import 'package:flutter_fitness_v1/pages/home/widgets/video_info.dart';
 
 import 'pages/home/details/details.dart';
 
@@ -38,8 +39,9 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/': (context) => HomePage(),
         '/details': (context) => DetailsPage(),
+        '/video': (context) => VideoInfo()
       },
-      initialRoute: '/details',
+      initialRoute: '/video',
     );
   }
 }
